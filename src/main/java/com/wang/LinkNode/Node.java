@@ -18,5 +18,8 @@ public class Node {
     public Node node;
 
     //构造方法，在构造时就能给data
+    public Node(int data){
+        this.data = data;
+    }
 
 }
