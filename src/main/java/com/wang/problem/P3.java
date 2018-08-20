@@ -1,6 +1,5 @@
 package com.wang.problem;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -49,7 +48,6 @@ public class P3 {
     }
 
     public static void main(String[] args) {
-//        System.out.println(lengthOfLongestSubstring("abcabcbb"));
         System.out.println(lengthOfLongestSubstring("abcabcbb"));
     }
 }

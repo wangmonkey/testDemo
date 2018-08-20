@@ -1,7 +1,5 @@
 package com.wang.LinkNode;
 
-import lombok.Data;
-
 /**
  * @version ： 1.0.0
  * @package : com.wang.LinkNode
@@ -10,7 +8,7 @@ import lombok.Data;
  * @Created by : wangxueyang[wxueyanghj@163.com]
  * @Creation Date ：2018年08月20日上午10:53
  */
-@Data
+
 public class Node {
 
     public int data;
