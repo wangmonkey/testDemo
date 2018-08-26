@@ -2,6 +2,8 @@ package com.wang.LinkNode;
 
 import org.junit.jupiter.api.Test;
 
+import java.util.HashMap;
+
 /**
  * @version ： 1.0.0
  * @package : com.wang.LinkNode
@@ -21,6 +23,10 @@ public class TestDemo {
         stackSingleLink.push(123);
         stackSingleLink.push(34);
         stackSingleLink.display();
+
+        HashMap<String, Object> hashMap = new HashMap<>(16);
+
+        hashMap.put("haha",1223);
     }
 
 }
