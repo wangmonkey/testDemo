@@ -1,0 +1,12 @@
+package com.wang.config;
+
+/**
+ * @version ： 1.0.0
+ * @package : com.wang.config
+ * @progect : testDemo
+ * @Description :
+ * @Created by : wangxueyang[wxueyanghj@163.com]
+ * @Creation Date ：2018年08月27日下午2:45
+ */
+public class Demo {
+}
