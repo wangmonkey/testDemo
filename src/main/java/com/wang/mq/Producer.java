@@ -3,6 +3,7 @@ package com.wang.mq;
 import com.rabbitmq.client.Channel;
 import com.rabbitmq.client.Connection;
 import com.rabbitmq.client.ConnectionFactory;
+import org.junit.jupiter.api.Test;
 
 /**
  * @version ： 1.0.0
@@ -36,5 +37,10 @@ public class Producer {
         //关闭通道和连接
         channel.close();
         connection.close();
+    }
+
+    @Test
+    public void test6(){
+        System.out.println(null == null);
     }
 }
