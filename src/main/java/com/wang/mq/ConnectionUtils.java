@@ -23,12 +23,12 @@ public class ConnectionUtils {
          //定一个连接工厂
         ConnectionFactory factory = new ConnectionFactory();
         //设置服务地址
-        factory.setHost("127.0.0.1");
-        factory.setPort(5672);
+        factory.setHost("http://192.168.40.247");
+        factory.setPort(15672);
         factory.setVirtualHost("/");
         //用户名  密码
-        factory.setUsername("guest");
-        factory.setPassword("guest");
+        factory.setUsername("admin");
+        factory.setPassword("admin");
         return factory.newConnection();
     }
 

@@ -16,6 +16,7 @@ public class TestRedis {
     @Test
     public void test1(){
         Jedis jedis = new Jedis();
-        jedis.append("wang","123");
+        jedis.set("wang","123","xx","px",10000);
+        jedis.set("wang","1234","nx","px",20000);
     }
 }
