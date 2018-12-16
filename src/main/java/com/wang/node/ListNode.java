@@ -10,9 +10,11 @@ package com.wang.node;
  */
 public class ListNode {
 
-    private int val;
-    private ListNode next;
-    private ListNode(int x){
+    int val;
+    ListNode next;
+    public ListNode(int x){
         val = x;
     }
+
+
 }
